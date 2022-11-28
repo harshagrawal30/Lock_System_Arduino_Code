@@ -9,7 +9,7 @@ int distance;
 
 String dicid;
 String pwd;
-String id = "adgsdfgsgdsghew"; //Id is given to the Lock so as to authenticate it by registering with an account in backend service
+String id = ""; // 15 length Id is given to the Lock so as to authenticate it by registering with an account in backend service
 String otpp = "";
 int sled1 = 12;
 int sled2 = 13;
