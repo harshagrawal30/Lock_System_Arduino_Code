@@ -9,7 +9,7 @@ int distance;
 
 String dicid;
 String pwd;
-String id = "adgsdfgsgdsghew";
+String id = "adgsdfgsgdsghew"; //Id is given to the Lock so as to authenticate it by registering with an account in backend service
 String otpp = "";
 int sled1 = 12;
 int sled2 = 13;
@@ -131,7 +131,7 @@ void lock() {
 }
 
 void loopSensing() {
-  if(Serial.available())return;
+  if(Serial.available())return;  //As soon as Serial is Available, Return and Read the Data
   digitalWrite(trigPin, LOW);
   if(Serial.available())return;
   delayMicroseconds(2);
